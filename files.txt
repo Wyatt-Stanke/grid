@@ -1,0 +1,2 @@
+https://data.metabrainz.org/pub/musicbrainz/data/fullexport/20250212-001746/mbdump.tar.bz2
+https://data.metabrainz.org/pub/musicbrainz/data/fullexport/20250212-001746/mbdump-derived.tar.bz2

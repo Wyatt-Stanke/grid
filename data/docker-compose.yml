@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: musicbrainz_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_INITDB_ARGS: "--auth-host=md5"
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - "/mnt/d/pgdata:/var/lib/postgresql/data"
+    ports:
+      - "5432:5432"
+    privileged: true
